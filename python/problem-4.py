@@ -7,6 +7,7 @@
 
 palindrome_numbers = {}
 
+
 def maxNumber(numList):
     biggest = numList[0]
 
@@ -15,6 +16,7 @@ def maxNumber(numList):
             biggest = num
 
     return biggest
+
 
 def isPalindrome(value):
     return str(value) == str(value)[::-1]

@@ -5,6 +5,7 @@
 
 import math
 
+
 def getPrimeFactors(num):
     even_numbers = [0, 2, 4, 6, 8]
     factors = []
@@ -27,6 +28,7 @@ def getPrimeFactors(num):
             num = 1
 
     return factors
+
 
 primeFactors = getPrimeFactors(600851475143)
 

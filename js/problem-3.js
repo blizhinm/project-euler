@@ -7,7 +7,7 @@ function getPrimeFactors(num) {
   const EVEN_DIGITS = [0, 2, 4, 6, 8];
   const factors = [];
 
-  while(num > 1) {
+  while (num > 1) {
     const isEven = EVEN_DIGITS.includes(num % 10);
     const startNumber = isEven ? 2 : 3;
     let isDivisible = false;

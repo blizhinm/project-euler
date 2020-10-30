@@ -9,7 +9,8 @@
 
 results = 0
 
-def fibonacciSum(first = 1, second = 2, limit = 4000000):
+
+def fibonacciSum(first=1, second=2, limit=4000000):
     global results
 
     nextNumber = first + second

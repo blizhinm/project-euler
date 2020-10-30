@@ -33,4 +33,5 @@ function getPrimeFactors(num) {
 
 const primeFactors = getPrimeFactors(600851475143);
 
-console.log(primeFactors[primeFactors.length - 1]);
+console.log('prime factors:', primeFactors);
+console.log('largest:', primeFactors[primeFactors.length - 1]);

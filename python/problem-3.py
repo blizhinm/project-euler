@@ -21,13 +21,14 @@ def getPrimeFactors(num):
                 is_divisible = True
 
                 break
-        
+
         if not is_divisible:
             factors.append(num)
             num = 1
-        
+
     return factors
 
 primeFactors = getPrimeFactors(600851475143)
 
-print(primeFactors[-1])
+print(f'prime factors: {primeFactors}')
+print(f'largest: {primeFactors[-1]}')

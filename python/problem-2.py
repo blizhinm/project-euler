@@ -15,7 +15,8 @@ def fibonacciSum(first = 1, second = 2, limit = 4000000):
     nextNumber = first + second
 
     if nextNumber <= limit:
-        results += nextNumber
+        if nextNumber % 2 == 0:
+            results += nextNumber
 
         fibonacciSum(second, nextNumber, limit)
 
